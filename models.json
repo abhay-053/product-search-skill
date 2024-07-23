@@ -1,0 +1,51 @@
+{
+    "interactionModel": {
+      "languageModel": {
+        "invocationName": "product search",
+        "intents": [
+          {
+            "name": "SearchProductIntent",
+            "slots": [
+              {
+                "name": "Product",
+                "type": "AMAZON.SearchQuery"
+              }
+            ],
+            "samples": [
+              "search for {Product}",
+              "find {Product}",
+              "look up {Product}"
+            ]
+          },
+          {
+            "name": "RecommendProductIntent",
+            "samples": [
+              "recommend me a product",
+              "give me a product recommendation",
+              "suggest a product"
+            ]
+          },
+          {
+            "name": "AMAZON.HelpIntent",
+            "samples": [
+              "help"
+            ]
+          },
+          {
+            "name": "AMAZON.CancelIntent",
+            "samples": [
+              "cancel"
+            ]
+          },
+          {
+            "name": "AMAZON.StopIntent",
+            "samples": [
+              "stop"
+            ]
+          }
+        ],
+        "types": []
+      }
+    }
+  }
+  
